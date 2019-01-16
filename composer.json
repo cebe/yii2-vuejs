@@ -1,0 +1,38 @@
+{
+	"name": "cebe/yii2-vuejs",
+	"description": "Vuejs Asset for Yii 2",
+	"keywords": ["yii2", "vuejs"],
+	"homepage": "https://github.com/cebe/yii2-vuejs#readme",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Carsten Brandt",
+			"email": "mail@cebe.cc",
+			"homepage": "https://cebe.cc/",
+			"role": "Creator"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/cebe/yii2-vuejs/issues",
+		"source": "https://github.com/cebe/yii2-vuejs"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "~2.0.0",
+		"bower-asset/vue": "^2.0"
+	},
+	"require-dev": {
+		"cebe/indent": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"cebe\\yii2vuejs\\": "src/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
